@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+        font-family: "Lato", sans-serif;
+}
+
+.container{
+    margin: 0 12rem;
+}
+
+.container-wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0;
+}
+.container-body {
+    padding: 0 2rem;
+}
+
+.logo img{
+    width: auto;
+    height: 4rem;
+}
+
+.logo {
+   margin-left: 1rem; 
+}
+
+.header-text {
+font-family: Lato;
+font-size: 28px;
+font-weight: 600;
+line-height: 36px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 4rem;
+}
+
+.header-lead {
+margin-bottom: 2rem;
+font-family: Lato;
+font-size: 18px;
+font-weight: 520;
+line-height: 24px;
+letter-spacing: 0.15000000596046448px;
+text-align: left;
+text-decoration-skip-ink: none;
+
+}
+
+.reg-link {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.block {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.btn {
+padding: 8px 12px 8px 12px;
+gap: 0px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background: #4D4A72;
+color: #fff;
+}
+
+a.btn {
+    outline: unset;
+    text-decoration: none;
+    margin: auto 0;    
+}
+
+p {
+    margin-top: 2rem;
+}
